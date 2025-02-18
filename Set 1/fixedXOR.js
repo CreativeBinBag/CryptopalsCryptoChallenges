@@ -10,8 +10,10 @@ function hexToBytes(input) {
  return byteArray
 }
 
+
 byte1 = hexToBytes(hexInput1)
 byte2 = hexToBytes(hexInput2)
+
 
 function fixedXOR(byte1, byte2){
   let result =[] 
@@ -25,5 +27,4 @@ function fixedXOR(byte1, byte2){
 }
 
 console.log(fixedXOR(byte1, byte2))
-
 
